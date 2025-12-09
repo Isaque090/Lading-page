@@ -175,33 +175,33 @@
 
             </a>
             <div style="margin-left:38%; margin-top:-20%;">
-                <img src="Grocery Iteam 1.png" alt="">
+                <img src="Grocery Iteam 1.png" id="foto" alt="">
             </div>
         </div>
     </header>
     <div style="margin-left:50px;padding-top:30px;">
         <h2>CATEGORIA</h2>
-        <div style="display: inline-block;">
+        <div style="display: inline-block;" id="produto1">
             <img src="Vegetables 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
             <h3 style="margin-left:30px;padding-top:5px;">Legumes</h3>
         </div>
-        <div style="display: inline-block; margin-left:60px;">
+        <div style="display: inline-block; margin-left:60px;"id="produto2">
             <img src="Fruit 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
             <h3 style="margin-left:60px;padding-top:5px;">Frutas</h3>
         </div>
-        <div style="display:inline-block; margin-left:60px;">
+        <div style="display:inline-block; margin-left:60px;"id="produto3">
             <img src="DRNKS 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
             <h3 style="margin-left:50px;padding-top:5px;">Bebidas</h3>
         </div>
-        <div style="display:inline-block; margin-left:60px;">
+        <div style="display:inline-block; margin-left:60px;"id="produto4">
             <img src="NUTS 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
             <h3 style="margin-left:10px;padding-top:5px;">Nozes Frescas</h3>
         </div>
-        <div style="display:inline-block; margin-left:60px;">
+        <div style="display:inline-block; margin-left:60px;"id="produto5">
             <img src="FRESH FISH 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
             <h3 style="margin-left:10px;padding-top:5px;">Peixe Fresco</h3>
         </div>
-        <div style="display:inline-block; margin-left:60px;">
+        <div style="display:inline-block; margin-left:60px;"id="produto6">
             <img src="MEAT 1 (1).svg" style="margin-left:20px;padding-top:10px;" alt="">
             <h3 style="margin-left:60px;padding-top:5px;">Carne</h3>
         </div>
@@ -213,9 +213,9 @@
         <div class="row">
 
 
-            <div class="col-lg-5 mb-4">
+            <div class="col-lg-5 mb-4"id="t">
                 <div class=" align-items-center justify-content-center"
-                    style="background-color: #C8A938;height:574px; width: 574px;border-radius:10px;">
+                    style="background-color: #C8A938;height:574px; width: 574px;border-radius:10px;" >
                     <h2 class="text-center " style="padding-top:50px;">LEGUMES FRESCOS</h2>
                     <h1 class="text-center " style="padding-top:5px;">GRANDE PROMOÇÃO</h1>
                     <img src="Vegetables 1.svg" style="margin-left: auto; display: block; margin-right: auto;"
@@ -225,11 +225,11 @@
 
 
             <div class="col-lg-7">
-                <div class="row h-100" style="margin-left:10px;">
+                <div class="row h-100" style="margin-left:10px;" id="te">
 
 
                     <div class="   align-items-center justify-content-center"
-                        style=" background-color:rgba(253, 81, 81, 0.67);height:267px; width: 770px;border-radius:10px">
+                        style=" background-color:rgba(253, 81, 81, 0.67);height:267px; width: 770px;border-radius:10px" >
 
                         <h4 style="padding-top:40px;margin-left:40%; color: #FFFFFF;">SUPER PROMOÇÃO DE FRUTAS FRESCAS
                         </h4>
@@ -567,16 +567,69 @@
             origin: 'left',
             distance: '100%'
         });
-         ScrollReveal().reveal('#d', {
+        ScrollReveal().reveal('#d', {
             duration: 2000,
             origin: 'left',
             distance: '100%'
         });
-         
-ScrollReveal({ distance: '80px', duration: 1500, easing: 'cubic-bezier(0.215, 0.61, 0.355, 1)', reset: false });
 
-        // Header
-       
+        ScrollReveal().reveal('#foto', { 
+          origin:'rigth',
+          distance:'20%'
+          , duration: 2000,
+         });
+         
+        ScrollReveal().reveal('#produto1', { 
+          origin:'left',
+          distance:'100%'
+          , duration: 1000,
+          
+         });
+          ScrollReveal().reveal('#produto2', { 
+          origin:'left',
+          distance:'100%'
+          , duration: 2000,
+            delay:200
+         }); ScrollReveal().reveal('#produto3', { 
+          origin:'left',
+          distance:'100%'
+          , duration: 2000,
+delay:400
+         }); ScrollReveal().reveal('#produto4', { 
+          origin:'left',
+          distance:'100%'
+          , duration: 2000,
+          delay:600
+         }); ScrollReveal().reveal('#produto5', { 
+          origin:'left',
+          distance:'100%'
+          , duration: 2000,
+          delay:800
+         }); ScrollReveal().reveal('#produto6', { 
+          origin:'left',
+          distance:'100%'
+          , duration: 2000,
+          delay:1000
+         });
+         ScrollReveal().reveal('#t', { 
+          origin:'left',
+          distance:'100%'
+          , duration: 1000,
+          
+         });
+            ScrollReveal().reveal('#te', { 
+     origin:'right',
+          distance:'100%'
+          , duration: 1000,
+          
+         }); 
+         
+
+
+
+        ScrollReveal({ distance: '80px', duration: 1500, easing: 'cubic-bezier(0.215, 0.61, 0.355, 1)', reset: false });
+
+
         ScrollReveal().reveal('.botao', { origin: 'bottom', delay: 600 });
     </script>
 </body>
