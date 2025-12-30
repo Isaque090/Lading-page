@@ -101,6 +101,60 @@
         .compra:hover {
             background-color: #0b6435d7 !important;
         }
+        @media (max-width:540px){
+            body{
+max-width:100% !important;
+
+            }
+            .imagenss{
+                margin-left:-20% !important;
+                margin-top:5% !important;
+
+            }
+            .foto{
+width:104% !important;
+            }
+             .imagemcateg{
+            margin-left:-40px !important;padding-top:10px !important;
+        }
+        .legumes{
+            margin-left:-20px !important;padding-top:5px;
+        }
+           .outrascategorias{
+            margin-left:10px !important;padding-top:5px;
+        }
+         .categoriah3{
+            margin-left:0px !important;padding-top:5px;
+        }
+            .bebidas{
+            margin-left:-10px !important;padding-top:5px;
+        }
+        }
+
+        .imagenss{
+margin-left:38%; margin-top:-20%;
+        }
+        .categoriah3{
+            margin-left:60px;padding-top:5px;
+        }
+        .outrascategorias{
+            margin-left:10px;padding-top:5px;
+        }
+        .produto{
+            display:inline-block;
+        }
+        .margin{
+             margin-left:60px;
+        }
+        .imagemcateg{
+            margin-left:20px;padding-top:10px;
+        }
+        .legumes{
+            margin-left:30px;padding-top:5px;
+        }
+        .bebidas{
+            margin-left:50px;padding-top:5px;
+        }
     </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -174,39 +228,41 @@
                 <H3>SAIBA MAIS</H3>
 
             </a>
-            <div style="margin-left:38%; margin-top:-20%;">
-                <img src="Grocery Iteam 1.png" id="foto" alt="">
+            <div class="imagenss">
+                <img src="Grocery Iteam 1.png" class="foto" id="foto" alt="">
             </div>
         </div>
     </header>
-    <div style="margin-left:50px;padding-top:30px;">
-        <h2>CATEGORIA</h2>
-        <div style="display: inline-block;" id="produto1">
-            <img src="Vegetables 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
-            <h3 style="margin-left:30px;padding-top:5px;">Legumes</h3>
+ <div style="margin-left:50px; padding-top:30px;">
+    <h2>CATEGORIA</h2>
+
+    <div class="row ">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center justify-content-start" id="produto1">
+            <img src="Vegetables 1.svg" class="imagemcateg" alt="">
+            <h3 class="legumes">Legumes</h3>
         </div>
-        <div style="display: inline-block; margin-left:60px;"id="produto2">
-            <img src="Fruit 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
-            <h3 style="margin-left:60px;padding-top:5px;">Frutas</h3>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center" id="produto2">
+            <img src="Fruit 1.svg" class="imagemcateg" alt="">
+            <h3 class="categoriah3">Frutas</h3>
         </div>
-        <div style="display:inline-block; margin-left:60px;"id="produto3">
-            <img src="DRNKS 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
-            <h3 style="margin-left:50px;padding-top:5px;">Bebidas</h3>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2 text-center" id="produto3">
+            <img src="DRNKS 1.svg" class="imagemcateg" alt="">
+            <h3 class="bebidas">Bebidas</h3>
         </div>
-        <div style="display:inline-block; margin-left:60px;"id="produto4">
-            <img src="NUTS 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
-            <h3 style="margin-left:10px;padding-top:5px;">Nozes Frescas</h3>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2  text-center" id="produto4">
+            <img src="NUTS 1.svg" class="imagemcateg" alt="">
+            <h3 class="outrascategorias">Nozes Frescas</h3>
         </div>
-        <div style="display:inline-block; margin-left:60px;"id="produto5">
-            <img src="FRESH FISH 1.svg" style="margin-left:20px;padding-top:10px;" alt="">
-            <h3 style="margin-left:10px;padding-top:5px;">Peixe Fresco</h3>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1 text-center" id="produto5">
+            <img src="FRESH FISH 1.svg" class="imagemcateg" alt="">
+            <h3 class="outrascategorias">Peixe Fresco</h3>
         </div>
-        <div style="display:inline-block; margin-left:60px;"id="produto6">
-            <img src="MEAT 1 (1).svg" style="margin-left:20px;padding-top:10px;" alt="">
-            <h3 style="margin-left:60px;padding-top:5px;">Carne</h3>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-1 text-center" id="produto6">
+            <img src="MEAT 1 (1).svg" class="imagemcateg" alt="">
+            <h3 class="categoriah3">Carne</h3>
         </div>
     </div>
-
+</div>
     <div class="container-fluid px-5 my-5">
         <h2 class="mb-4">PRODUTOS EM DESTAQUE</h2>
 
