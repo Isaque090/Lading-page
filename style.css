@@ -1,0 +1,327 @@
+    
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23000000' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+.sr-placeholder {
+    min-height: 250px;
+    opacity: 0;
+}
+
+
+@media (max-width: 767px) {
+    header {
+        margin-top: 80px !important; 
+        padding-bottom: 50px;
+    }
+    
+    .imagenss {
+        margin-top: 20px !important;
+        margin-left: 0 !important;
+        text-align: center;
+    }
+    
+    .foto {
+        width: 90% !important;
+        max-width: 400px;
+    }
+}
+        body {
+            width: 100% !important;
+            height: 100vh;
+        }
+
+        .navbar {
+            background-color: #FFFFFF;
+
+            padding: 8px 15px;
+        }
+
+        header {
+            margin-top: 100px !important;
+            background-color: #0B6434;
+        }
+
+        .montserrat {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 300;
+            font-style: normal;
+        }
+
+        .montserrat-uniquifier {
+            font-family: "Montserrat", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .nav-link {
+            color: #000000 !important;
+
+        }
+
+        .nav-link:hover {
+            color: #0B6434 !important;
+        }
+
+        .botao:hover {
+            background-color: #0B6434 !important;
+            color: #FFFFFF !important;
+            border: 1px solid #FFFFFF !important;
+            transition: all 0.7s ease;
+        }
+
+        .a {
+            margin-top: 5px;
+            width: 40px;
+            height: 40px;
+            background-color: #679a7f81;
+            border-radius: 50%;
+            display: inline-block;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+        }
+
+        .a:hover {
+            background-color: #0B6434;
+        }
+
+        .b:hover {
+
+            color: #000000 !important;
+
+        }
+
+        .b {
+            color: #679a7f;
+            outline: none;
+            margin-left: 20px;
+        }
+
+        .y:hover {
+            background-color: transparent !important;
+            color: #000000 !important;
+
+            border: 1px solid #000000 !important;
+            transition: all 0.7s ease;
+
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            transition: all 0.4s ease;
+        }
+
+        .compra:hover {
+            background-color: #0b6435d7 !important;
+        }
+
+        @media (max-width:540px) {
+            body {
+                max-width: 100% !important;
+
+            }
+
+            .imagenss {
+                margin-left: -20% !important;
+                margin-top: 5% !important;
+
+            }
+
+            .foto {
+                width: 104% !important;
+            }
+
+            .imagemcateg {
+                margin-left: 0px !important;
+                padding-top: 10px !important;
+            }
+
+            .legumes {
+                margin-left: -20px !important;
+                padding-top: 5px;
+            }
+
+            .outrascategorias {
+                margin-left: 30px !important;
+                padding-top: 5px;
+            }
+
+            .outrascategoriass {
+                margin-left: 10px !important;
+                padding-top: 5px;
+            }
+
+            .categoriah3 {
+                margin-left: 0px !important;
+                padding-top: 5px;
+            }
+
+            .bebidas {
+                margin-left: -10px !important;
+                padding-top: 5px;
+            }
+
+            .produto {
+                margin-left: -25px;
+            }
+
+            .testeresp {
+                margin-left: 3px !important;
+                width: 319px !important;
+                height: 418px !important;
+                margin-top: 10px !important;
+
+            }
+
+            .testerespos {
+                margin-left: 3px !important;
+                width: 319px !important;
+                height: 418px !important;
+                margin-top: -35px !important;
+
+
+            }
+
+            .card1 {
+                background-color: #C8A938;
+                height: 574px;
+                width: 120% !important;
+                border-radius: 10px;
+                margin-left: -30px !important;
+            }
+
+            .imgprodutos {
+                margin-left: -70px !important;
+                display: block;
+                margin-right: auto;
+                width: 461px !important;
+                height: 220px !important;
+            }
+
+            .card2 {
+                background-color: rgba(253, 81, 81, 0.67);
+                height: 500px !important;
+                width: 116% !important;
+                border-radius: 10px;
+                margin-left: -35px !important;
+            }
+            
+        .imgcard2 {
+            margin-top: -10% ; 
+            width: 300px !important;
+            height: 258px;
+            margin-left: 20px !important;
+        }
+
+
+            .imgcard3 {
+                width: 440px;
+                height: 240px;
+                margin-top: -26%;
+                margin-left: -44% !important;
+            }
+
+            .card3 {
+                background-color: #FF9564;
+                height: 500px !important;
+                width: 116% !important;
+                margin-left: -35px !important;
+                margin-top: 30px;
+                border-radius: 10px;
+            }
+        }
+
+        .imagenss {
+            margin-left: 38%;
+            margin-top: -20%;
+        }
+
+        .categoriah3 {
+            margin-left: 20px;
+            padding-top: 5px;
+        }
+
+        .outrascategorias {
+            margin-left: 10px;
+            padding-top: 5px;
+        }
+
+        .margin {
+            margin-left: 60px;
+        }
+
+        .imagemcateg {
+            margin-left: 20px;
+            padding-top: 10px;
+        }
+
+        .legumes {
+            margin-left: 30px;
+            padding-top: 5px;
+        }
+
+        .bebidas {
+            margin-left: 20px;
+            padding-top: 5px;
+        }
+
+        .testeresp {
+            margin-left: 35px;
+            width: 319px;
+            height: 418px;
+            border: 2px solid #679a7f;
+        }
+
+        .testerespos {
+            margin-left: 20px;
+            width: 319px;
+            height: 418px;
+            border: 2px solid #679a7f;
+
+        }
+
+        .card1 {
+            background-color: #C8A938;
+            height: 574px;
+            width: 574px;
+            border-radius: 10px;
+        }
+
+        .imgprodutos {
+            margin-left: auto;
+            display: block;
+            margin-right: auto;
+            width: 461px;
+            height: 329px;
+        }
+
+        .card2 {
+            background-color: rgba(253, 81, 81, 0.67);
+            height: 267px;
+            width: 770px;
+            border-radius: 10px;
+        }
+
+        .imgcard2 {
+            margin-top: -10%;
+            width: 380px;
+            height: 258px;
+        }
+
+        .imgcard3 {
+            width: 440px;
+            height: 240px;
+            margin-top: -26%;
+            margin-left: 44%;
+        }
+
+        .card3 {
+            background-color: #FF9564;
+            height: 267px;
+            width: 770px;
+            border-radius: 10px;
+        }
